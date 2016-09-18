@@ -1,9 +1,9 @@
 @smoke_test, @regression, @cart_test
 Feature: demo test
-Scenario: verify demo test runs
-	Given I go to Amazon
-	When I search for stuff
-	Then I should be able to see stuff
+#Scenario: verify demo test runs
+#	Given I go to Amazon
+#	When I search for stuff
+#	Then I should be able to see stuff
 @skip
 Scenario: checkout stuff 
 	Given I go to Amazon	
