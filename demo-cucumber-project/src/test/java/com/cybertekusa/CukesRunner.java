@@ -9,8 +9,8 @@ import cucumber.api.junit.Cucumber;
 @RunWith(Cucumber.class)
 @CucumberOptions(
 		plugin = { 
-				"html:target/cucumber/html",
-				"json:target/cucumber/json"
+				"html:target/cucumber/html"
+//				,"json:target/cucumber/json"
 			}, 
 		dryRun = false, 
 		tags = { "@cart_test" })
