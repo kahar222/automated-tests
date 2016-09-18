@@ -7,6 +7,7 @@ Feature: Check out tons of stuff
 Scenario Outline: Verify users can check out 
 	Given I go to Amazon	
 	And I search for "<item>"
+	And I seatch for "<item>"
 	And I select my "<book_name>" from the results
 	When I add my "<book_name>" to my cart
 	Then I should be able to see "<book_name>" on the cart	

@@ -1,7 +1,8 @@
 Feature: Check out functionality
 
 Background: test setup
-	Given I go to Amazon	
+	Given I go to Amazon
+	   Given I go to Amazon	
 	And I search for "book"
 
 Scenario: check out multiple stuff
