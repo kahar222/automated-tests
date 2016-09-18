@@ -2,6 +2,7 @@
 Feature: demo test
 Scenario: verify demo test runs
 	Given I go to Amazon Website
+	Given I go to Amazon Website
 	When I search for stuff
 	Then I should be able to see stuff immediately
 @skip
