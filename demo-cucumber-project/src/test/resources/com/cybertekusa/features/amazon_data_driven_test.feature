@@ -21,15 +21,4 @@ Scenario Outline: Verify users can check out
 	| book | Head First Java	|
 	| book | Think Java			|
 	| book | Another java book  |
-	| book | Selenium cookbook  |
-	| book | Head First Java	|
-	| book | Think Java			|
-	| book | Another java book  |
-	| book | Selenium cookbook  |
-	| book | Head First Java	|
-	| book | Think Java			|
-	| book | Another java book  |
-	| book | Selenium cookbook  |
-	| book | Head First Java	|
-	| book | Think Java			|
-	| book | Another java book  |
+
