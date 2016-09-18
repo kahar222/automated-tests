@@ -12,7 +12,7 @@ import cucumber.api.junit.Cucumber;
 				"html:target/cucumber/html"
 //				,"json:target/cucumber/json"
 			}, 
-		dryRun = false, 
+//		dryRun = true, 
 		tags = { "@cart_test" })
 //		features = {"./src/test/resources/com/cybertekusa/features"})
 // 		glue = {"./src/test/java/com/cybertekusa/stepdefinitions"}
